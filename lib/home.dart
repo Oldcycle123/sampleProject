@@ -20,6 +20,7 @@ class _AuthScreenState extends State<AuthScreen> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   User? _user;
+  // this is a git comment
 
   Future<void> _signInWithGoogle() async {
     final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
